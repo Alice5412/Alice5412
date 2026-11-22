@@ -31,7 +31,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,linux,docker,git,android,bash&theme=dark" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,linux,powershell,docker,git,redis&theme=dark" alt="Tech stack" />
 
 </div>
 
