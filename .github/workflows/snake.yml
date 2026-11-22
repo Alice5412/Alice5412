@@ -12,8 +12,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: readme-snake
-  cancel-in-progress: true
+  group: readme-assets
+  cancel-in-progress: false
 
 jobs:
   snake:
@@ -31,10 +31,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit snake
+      - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/github-snake.svg profile/github-snake-dark.svg
-          git commit -m "chore: update snake animation" || exit 0
-          git push
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "chore: update snake animation"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push; then break; fi
+            echo "push attempt $i failed, retrying"
+            sleep 5
+          done
