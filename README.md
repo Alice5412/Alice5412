@@ -31,7 +31,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,nodejs,linux,powershell,docker,git,redis&theme=dark" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=rust,python,ts,js,nodejs,linux,powershell,docker,git&theme=dark" alt="Tech stack" />
 
 </div>
 
@@ -39,6 +39,7 @@
 
 | 项目 | 说明 |
 | --- | --- |
+| **[wechat-message-completion](https://github.com/Alice5412/wechat-message-completion)** | Windows 微信输入框的 Rust 补全工具，Ctrl+Alt+空格 出灰字建议、Tab 填入，自带 OCR 读屏取聊天历史，兼容 OpenAI 接口 |
 | **[catbus](https://github.com/cv-cat/catbus)** | 一套命令操作小红书、抖音、TikTok、B 站、快手、微博、闲鱼、淘宝、京东、X，统一 JSON 输出，给人和 AI Agent 用 |
 | **[claude-reverse-skills](https://github.com/Alice5412/claude-reverse-skills)** | Claude Code 逆向工程 skill 集合（APK / IDA / radare2 / JS），含 IDA MCP 接入，跨 Linux / macOS / Windows |
 | **[codex-session-toolkit](https://github.com/Alice5412/codex-session-toolkit)** | Windows 工具，按工作目录浏览本地 Codex 会话，从任意用户轮次 fork，切换账号，跨账号迁移对话 |
