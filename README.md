@@ -14,8 +14,8 @@
 
 <div align="center">
 
-<img height="180" src="./profile/stats.svg" alt="GitHub stats" />
-<img height="180" src="./profile/top-langs.svg" alt="Top languages" />
+<img width="430" src="./profile/stats.svg" alt="GitHub stats" />
+<img width="430" src="./profile/top-langs.svg" alt="Top languages" />
 
 <img width="880" src="./profile/trophy.svg" alt="Trophies" />
 
