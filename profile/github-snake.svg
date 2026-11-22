@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220" viewBox="0 0 880 220" role="img" aria-label="Contribution snake renders on the next workflow run">
+  <rect x="1" y="1" width="878" height="218" rx="10" fill="#1a1b26" stroke="#292e42" stroke-width="2" stroke-dasharray="6 6" />
+  <text x="440" y="105" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="16" fill="#565f89">Contribution snake</text>
+  <text x="440" y="132" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#3b4261">workflow: Update snake</text>
+</svg>

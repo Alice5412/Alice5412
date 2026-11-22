@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120" role="img" aria-label="Trophies render on the next workflow run">
+  <rect x="1" y="1" width="878" height="118" rx="10" fill="#1a1b26" stroke="#292e42" stroke-width="2" stroke-dasharray="6 6" />
+  <text x="440" y="55" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="15" fill="#565f89">GitHub profile trophies</text>
+  <text x="440" y="80" text-anchor="middle" font-family="Consolas,monospace" font-size="12" fill="#3b4261">workflow: Update trophy</text>
+</svg>
